@@ -1,0 +1,3 @@
+FROM scratch
+COPY hello-static /
+CMD ["/hello-static"]
